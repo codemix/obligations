@@ -11,6 +11,13 @@
     "assertion",
     "assertions"
   ],
-  "author": "Charles Pick <charles@codemix.com>",
-  "license": "MIT"
+  "author": {
+    "name": "Charles Pick",
+    "email": "charles@codemix.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/codemix/obligations.git"
+  }
 }
