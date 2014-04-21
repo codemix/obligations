@@ -1,0 +1,16 @@
+{
+  "name": "obligations",
+  "version": "0.0.1",
+  "description": "Tiny JavaScript library for preconditions and postconditions, intended for use with Contractual.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "design by contract",
+    "assertion",
+    "assertions"
+  ],
+  "author": "Charles Pick <charles@codemix.com>",
+  "license": "MIT"
+}
