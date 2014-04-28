@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/codemix/obligations.svg?branch=master)](https://travis-ci.org/codemix/obligations)
 
 
-Tiny JavaScript library for [preconditions](http://en.wikipedia.org/wiki/Precondition) and [postconditions](http://en.wikipedia.org/wiki/Postcondition), intended for use with [Contractual](https://github.com/codemix/contractual).
+Tiny JavaScript library for [preconditions](http://en.wikipedia.org/wiki/Precondition), [postconditions](http://en.wikipedia.org/wiki/Postcondition) and [invariants](http://en.wikipedia.org/wiki/Invariant_\(computer_science\)), intended for use with [Contractual](https://github.com/codemix/contractual).
 
 
 ## Installation
