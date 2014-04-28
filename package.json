@@ -1,15 +1,19 @@
 {
   "name": "obligations",
-  "version": "0.0.1",
-  "description": "Tiny JavaScript library for preconditions and postconditions, intended for use with Contractual.",
+  "version": "0.0.2",
+  "description": "Tiny JavaScript library for preconditions, postconditions and invariants, intended for use with Contractual.",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./node_modules/mocha/bin/mocha --reporter=spec",
+    "watch": "node ./node_modules/mocha/bin/mocha --watch --reporter=spec"
   },
   "keywords": [
     "design by contract",
     "assertion",
-    "assertions"
+    "assertions",
+    "precondition",
+    "postcondition",
+    "invariant"
   ],
   "author": {
     "name": "Charles Pick",
@@ -19,5 +23,9 @@
   "repository": {
     "type": "git",
     "url": "http://github.com/codemix/obligations.git"
+  },
+  "devDependencies": {
+    "should": "~3.3.1",
+    "mocha": "~1.18.2"
   }
 }
