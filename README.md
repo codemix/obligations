@@ -1,5 +1,8 @@
 # Obligations
 
+[![Build Status](https://travis-ci.org/codemix/obligations.svg?branch=master)](https://travis-ci.org/codemix/obligations)
+
+
 Tiny JavaScript library for [preconditions](http://en.wikipedia.org/wiki/Precondition) and [postconditions](http://en.wikipedia.org/wiki/Postcondition), intended for use with [Contractual](https://github.com/codemix/contractual).
 
 
@@ -22,6 +25,10 @@ obligations.precondition(0 > 1, "The world has ended!"); // throws a Preconditio
 obligations.postcondition(1 > 0); // always ok
 obligations.postcondition(false); // throws a PostconditionError
 obligations.postcondition(0 > 1, "The world has ended!"); // throws a PostconditionError with a custom message
+
+obligations.invariant(1 > 0); // always ok
+obligations.invariant(false); // throws an InvariantError
+obligations.invariant(0 > 1, "The world has ended!"); // throws a InvariantError with a custom message
 
 ```
 
